@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "app.jwt",
+      "type": "com.example.auth.config.JwtConfig",
+      "sourceType": "com.example.auth.config.JwtConfig"
+    },
+    {
+      "name": "app.jwt",
+      "type": "com.example.auth.security.jwt.JwtProperties",
+      "sourceType": "com.example.auth.security.jwt.JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.jwt.environment",
+      "type": "org.springframework.core.env.Environment",
+      "sourceType": "com.example.auth.config.JwtConfig"
+    },
+    {
+      "name": "app.jwt.expiration",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.auth.security.jwt.JwtProperties"
+    },
+    {
+      "name": "app.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.example.auth.security.jwt.JwtProperties"
+    }
+  ],
+  "hints": []
+}
